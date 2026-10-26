@@ -1,0 +1,14 @@
+requirements_content = """
+fastapi==0.110.0
+uvicorn==0.28.0
+python-multipart==0.0.9
+joblib==1.3.2
+numpy==1.25.2
+librosa==0.10.1
+scikit-learn==1.2.2
+"""
+
+with open('requirements.txt', 'w') as f:
+    f.write(requirements_content.strip())
+
+print("Created requirements.txt successfully! Send this along with main.py to your backend repository.")
